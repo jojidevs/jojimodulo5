@@ -1,0 +1,80 @@
+POST http://localhost:3000/registrar 
+Content-Type: application/json
+
+{
+"NombreComercio": "Music 4live",
+  "NombreDueno": "Andy Montiel",
+  "Coordenadas": "14.038449, -88.935872",
+  "Telefono": "23017465",
+  "RedesSociales": "@Music4liveCH",
+  "Categoria": "Insstrumentos musicales",
+  "Descripcion": "Tienda especializada en venta y reparacion de instrumentos musicales,asi mismo, como accesorios para los mismos"
+}
+###
+GET http://localhost:3000/listadoComercios
+###
+GET http://localhost:3000/uno/614a500c2f4c7f869f310c12
+
+###
+DELETE http://localhost:3000/eliminarComercio/614a83f8922aa5e9cd226895
+
+###
+PUT http://localhost:3000/editarComercio/614a500c2f4c7f869f310c12
+Content-Type: application/json
+
+{
+"NombreComercio" : "Puzzle Store",
+    "NombreDueno" : "Johana Cordova",
+    "Coordenadas" : "14.037577, -88.936522",
+    "Telefono" : "23018654",
+    "RedesSociales" : "@PuzzleStoreCH",
+    "Categoria" : "Juguetes",
+    "Descripccion" : "Tienda especializada en juguetes tipo puzzle"
+
+}
+
+###
+POST http://localhost:3000/registrarUsuario
+Content-Type: application/json
+
+{
+
+ 
+  
+  "nombre": "Elmer Alfredo",
+  "fechanacimiento": "16/08/1998",
+  "celular": "76548976",
+  "cargo": "Administrador",
+  "usuario": "jojisays",
+  "contrasena": "alitaspicantes"
+
+}
+
+###
+GET http://localhost:3000/listadoUsuarios
+
+###
+GET http://localhost:3000/usuario/614a4c3c2f4c7f869f310ace
+
+###
+DELETE http://localhost:3000/eliminarUsuario/614a8a42922aa5e9cd22689f
+
+###
+
+PUT http://localhost:3000/editarUsuario/614a67c71faacacafaa3355a
+Content-Type: application/json
+
+{
+
+ 
+  
+  "nombre": "Jorge Fuentes Moreno",
+  "fechanacimiento": "16/08/1998",
+  "celular": "76548976",
+  "cargo": "Administrador",
+  "usuario": "jojisays",
+  "contrasena": "alitaspicantes"
+
+}
+
+
