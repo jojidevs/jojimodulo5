@@ -54,10 +54,9 @@ Content-Type: application/json
 GET http://localhost:3000/listadoUsuarios
 
 ###
-GET http://localhost:3000/usuario/614a4c3c2f4c7f869f310ace
-
+GET http://localhost:3000/usuario/614a4c132f4c7f869f310abe
 ###
-DELETE http://localhost:3000/eliminarUsuario/614a8a42922aa5e9cd22689f
+DELETE http://localhost:3000/eliminarUsuario/6171d13734246162f004d7de
 
 ###
 
